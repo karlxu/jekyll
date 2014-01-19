@@ -1,5 +1,6 @@
 ﻿---layout: default
-title: 你好，世界---
-<h2>{{ page.title }}</h2>
+title: 你好，世界
+---
+<h2>{{page.title}}</h2>
 <p>我的第一篇文章，欢迎你！</p>
-<p>{{ page.date | date_to_string }}</p>
+<p>{{page.date | date_to_string}}</p>
